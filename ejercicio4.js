@@ -1,4 +1,5 @@
-function fromDecimalToBinary(numero = 174){
+function fromDecimalToBinary(numero = 10){
+    if(numero<0) return "No es un numero positivo"
     var intPart = numero;
     var binaryResult = "";
     while(intPart!=0){
